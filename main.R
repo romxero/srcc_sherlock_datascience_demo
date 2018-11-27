@@ -31,10 +31,10 @@ pkgs <- c(
 
 #library(pkgs_); #load the packages once they are installed.
 
-lapply(pkgs_,"require", character.only = TRUE)
+lapply(pkgs,"require", character.only = TRUE)
 
 setwd("~/Documents/scode/R/lyric_analysis/"); #can be left out on Sherlock..
-#unzip(zipfile = "data/380000-lyrics-from-metrolyrics.zip");
+
  
 
 
